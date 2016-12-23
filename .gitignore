@@ -1,3 +1,7 @@
+/dump.rdb
+
+
+### Python template
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -5,6 +9,23 @@ __pycache__/
 
 # C extensions
 *.so
+
+# OS generated files #
+######################
+*/.DS_Store
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Python Generated files #
+*.pyc
+*/*.pyc
+
 
 # Distribution / packaging
 .Python
@@ -43,7 +64,6 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *,cover
-.hypothesis/
 
 # Translations
 *.mo
@@ -51,39 +71,75 @@ coverage.xml
 
 # Django stuff:
 *.log
-local_settings.py
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
 
 # Sphinx documentation
 docs/_build/
 
 # PyBuilder
 target/
+### VirtualEnv template
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+/venv
+*.sqlite
+pyvenv.cfg
+pip-selfcheck.json
+### JetBrains template
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio
 
-# IPython Notebook
-.ipynb_checkpoints
+*.iml
 
-# pyenv
-.python-version
+## Directory-based project format:
+.idea/
+# if you remove the above rule, at least ignore the following:
 
-# celery beat schedule file
-celerybeat-schedule
+# User-specific stuff:
+# .idea/workspace.xml
+# .idea/tasks.xml
+# .idea/dictionaries
 
-# dotenv
-.env
+# Sensitive or high-churn files:
+# .idea/dataSources.ids
+# .idea/dataSources.xml
+# .idea/sqlDataSources.xml
+# .idea/dynamic.xml
+# .idea/uiDesigner.xml
 
-# virtualenv
-venv/
-ENV/
+# Gradle:
+/uploads/components
+# .idea/gradle.xml
+# .idea/libraries
 
-# Spyder project settings
-.spyderproject
+# Mongo Explorer plugin:
+# .idea/mongoSettings.xml
 
-# Rope project settings
-.ropeproject
+## File-based project format:
+*.ipr
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+
+#environment variables
+environ.py
+
+
+tokenizedonly_allans_dev-v1.0_tokenized.json
+# Created by .ignore support plugin (hsz.mobi)
